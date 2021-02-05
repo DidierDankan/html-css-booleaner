@@ -1,0 +1,32 @@
+body {
+  background: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100px;
+  width: 100%;
+}
+
+/* utilities */
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.logo-size {
+  width: 100px;
+}
+
+.reference {
+  color: lightgray;
+  line-height: 10px;
+}
+
+.fix {
+  color: blue;
+}
+
+.fix2 {
+  font-size: 12px;
+}
