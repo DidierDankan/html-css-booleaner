@@ -18,6 +18,9 @@ body {
   width: 100px;
 }
 
+/* main style*/
+
+/* section 1*/
 .reference {
   color: lightgray;
   line-height: 10px;
@@ -29,4 +32,17 @@ body {
 
 .fix2 {
   font-size: 12px;
+}
+
+/* section 2*/
+
+.caption-fix {
+  padding-top: 0px;
+  color: rgb(167, 157, 157);
+}
+
+/*section 3*/
+
+.enfasi {
+  background-color: yellow;
 }
