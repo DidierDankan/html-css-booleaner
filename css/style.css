@@ -46,3 +46,32 @@ body {
 .enfasi {
   background-color: yellow;
 }
+
+/* section 3 con table*/
+
+.thead {
+  background-color: rgb(74, 74, 238);
+}
+
+.row {
+  background-color: lightblue;
+}
+
+.row2 {
+  background-color: white;
+}
+.line {
+  display: inline-block;
+  line-height: 100%;
+  width: 25%;
+}
+
+.line2 {
+  display: inline-block;
+  width: 25%;
+}
+
+.line3 {
+  display: inline-block;
+  width: 49%;
+}
