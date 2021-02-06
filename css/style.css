@@ -1,99 +1,109 @@
-body {
-  background: url("../img/pattern.png");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+/*div container*/
+.container {
+  width: 80%;
+  margin: 1px auto;
+}
+
+/* main container*/
+p {
+  margin-top: 15px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+/* container header*/
+.img-back {
+  background-color: rgb(50, 163, 255);
+  background-image: url("../img/pattern.png");
   background-repeat: repeat;
-  background-size: cover;
-  background-position: top;
-  height: 100px;
+  background-size: contain;
+  height: 80px;
   width: 100%;
 }
 
-/* utilities */
-
-.container {
-  width: 80%;
-  margin: 50px auto;
+.logo-fix {
+  width: 200px;
+  margin-left: 130px;
 }
 
-.logo-size {
-  width: 100px;
+/*main style*/
+
+/* all id main */
+#namelogo {
+  color: rgb(5, 42, 255);
 }
 
-/* main style*/
-
-/* section 1*/
-.reference {
-  color: rgb(167, 157, 157);
-  line-height: 10px;
-}
-
-.fix {
-  color: blue;
-}
-
-.fix2 {
+#smallcap {
   font-size: 12px;
 }
 
-/* section 2*/
-
-.caption-fix {
-  padding-top: 0px;
-  color: rgb(167, 157, 157);
+#mesa {
+  width: 100%;
+  margin-top: 20px;
 }
 
-/*section 3*/
+#specifix {
+  margin-top: 25px;
+}
 
-.enfasi {
+#foto-clique1 {
+  background-image: url("../img/monitor.jpg");
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#foto-clique2 {
+  background-image: url("../img/graph.jpg");
+  background-position: center;
+  width: 200px;
+  height: 150px;
+  margin-top: 5px;
+  text-align: center;
+}
+/*end all id main*/
+
+/* all class main*/
+.specifix {
+  margin-top: 25px;
+}
+
+.speci {
+  color: rgb(85, 84, 84);
+}
+
+.speci2 {
+  width: 25%;
+}
+
+.marcatori {
   background-color: yellow;
 }
 
-/* section 3 con table*/
-
-.thead {
-  background-color: rgb(74, 74, 238);
-}
-
-.row {
-  background-color: lightblue;
-}
-
-.row2 {
-  background-color: white;
-}
-.line {
-  display: inline-block;
-  line-height: 100%;
-  width: 25%;
-}
-
-.line2 {
-  display: inline-block;
-  width: 25%;
-}
-
-.line3 {
-  display: inline-block;
-  width: 49%;
-}
-
-/* ultima section con foto con lorem*/
-
-.foto-con-lorem {
-  width: 200px;
-  height: 200px;
-  background-position: center;
-  background-image: url("../img/monitor.jpg");
-}
-
-.foto-con-lorem2 {
-  width: 200px;
-  height: 150px;
-  background-position: center;
-  background-image: url("../img/graph.jpg");
-}
-
-.fix-lorem {
+.th-color {
+  background-color: rgb(35, 84, 245);
   color: white;
-  padding-top: 30px;
-  padding-left: 10px;
+  text-align: left;
 }
+
+.tbody-back {
+  background-color: cornflowerblue;
+}
+
+.smallorem {
+  color: white;
+}
+/* end all class main*/
